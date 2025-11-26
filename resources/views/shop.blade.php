@@ -23,7 +23,7 @@
   <!-- Main Content -->
   <main class="pt-28 pb-16 container mx-auto px-6">
     <h2 class="text-3xl font-bold text-pink-500 text-center mb-10">
-      Koleksi Merchandise Terbaru
+      Koleksi Merchandise K-KPOP Terbaru
     </h2>
 
     <!-- Produk Grid -->
@@ -31,9 +31,9 @@
 
       <!-- Produk 1 -->
       <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
-        <img src="{{ asset('img/armybomb.webp') }}" alt="Lightstick BTS" class="w-full h-72 object-cover">
+        <img src="{{ asset('img/bp-ls.jpeg') }}" alt="Lightstick BP" class="w-full h-72 object-cover">
         <div class="p-5 text-center">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Lightstick BTS</h3>
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">BlackPink Lighstick</h3>
           <p class="text-pink-500 font-bold mb-4">Rp 650.000</p>
 
           <form action="{{ route('cart.add') }}" method="POST">
@@ -71,16 +71,16 @@
 
       <!-- Produk 3 -->
       <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
-        <img src="{{ asset('img/hoodietwice.jpg') }}" alt="Hoodie TWICE" class="w-full h-72 object-cover">
+        <img src="{{ asset('img/black pink.jpeg') }}" alt="Hoodie BlackPink" class="w-full h-72 object-cover">
         <div class="p-5 text-center">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Hoodie TWICE Official</h3>
-          <p class="text-pink-500 font-bold mb-4">Rp 550.000</p>
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Hoodie BlackPink Official</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 350.000</p>
 
           <form action="{{ route('cart.add') }}" method="POST">
             @csrf
             <input type="hidden" name="id" value="3">
             <input type="hidden" name="name" value="Hoodie TWICE Official">
-            <input type="hidden" name="price" value="550000">
+            <input type="hidden" name="price" value="350000">
             <button type="submit"
               class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
               Tambah ke Keranjang
@@ -91,16 +91,179 @@
 
       <!-- Produk 4 -->
       <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
-        <img src="{{ asset('img/seventeenls2.webp') }}" alt="Lightstick Seventeen" class="w-full h-72 object-cover">
+        <img src="{{ asset('img/blackpink-cap.jpeg') }}" alt="BlackPink Cap" class="w-full h-72 object-cover">
         <div class="p-5 text-center">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Lightstick SEVENTEEN Ver.2</h3>
-          <p class="text-pink-500 font-bold mb-4">Rp 720.000</p>
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Blackpink Cap</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 180.000</p>
 
           <form action="{{ route('cart.add') }}" method="POST">
             @csrf
             <input type="hidden" name="id" value="4">
             <input type="hidden" name="name" value="Lightstick SEVENTEEN Ver.2">
+            <input type="hidden" name="price" value="180000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Produk 5 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/seventeenls2.webp') }}" alt="Lightstick Seventeen" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">SEVENTEEN Lighstick Ver.2</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 720.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="5">
+            <input type="hidden" name="name" value="Lightstick SEVENTEEN Ver.2">
             <input type="hidden" name="price" value="720000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+
+       <!-- Produk 6 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/svt-album.jpeg') }}" alt="Album Seventeen" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Album SEVENTEEN - YOU MAKE MY DAY</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 980.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="6">
+            <input type="hidden" name="name" value="Album SEVENTEEN - YOU MAKE MY DAY">
+            <input type="hidden" name="price" value="980000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+
+      <!-- Produk 7 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/svt-hoodie.jpeg') }}" alt="Seventeen Hoodie" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">SEVENTEEN Hoodie</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 350.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="7">
+            <input type="hidden" name="name" value="SEVENTEEN Hoodie">
+            <input type="hidden" name="price" value="350000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Produk 8 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/svt-cap.jpeg') }}" alt="Seventeen Cap" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">SEVENTEEN Cap</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 200.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="8">
+            <input type="hidden" name="name" value="SEVENTEEN Cap">
+            <input type="hidden" name="price" value="200000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+      
+      <!-- Produk 9 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/armybomb.webp') }}" alt="BTS Lighstick" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">BTS Lighstick Ver.4</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 450.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="9">
+            <input type="hidden" name="name" value="BTS Lighstick Ver.4">
+            <input type="hidden" name="price" value="450000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Produk 10 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/bts-album.jpeg') }}" alt="BTS Album" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Album BTS Love Your Self Version</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 1.500.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="10">
+            <input type="hidden" name="name" value="Album BTS Love Your Self Version">
+            <input type="hidden" name="price" value="1500000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Produk 11 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/bts-hoodie.jpeg') }}" alt="BTS Hoodie" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">BTS Hoodie</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 360.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="11">
+            <input type="hidden" name="name" value="BTS Hoodie">
+            <input type="hidden" name="price" value="360000">
+            <button type="submit"
+              class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
+              Tambah ke Keranjang
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Produk 12 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="{{ asset('img/bts-cap.jpeg') }}" alt="BTS Cap" class="w-full h-72 object-cover">
+        <div class="p-5 text-center">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">BTS Cap</h3>
+          <p class="text-pink-500 font-bold mb-4">Rp 185.000</p>
+
+          <form action="{{ route('cart.add') }}" method="POST">
+            @csrf
+            <input type="hidden" name="id" value="12">
+            <input type="hidden" name="name" value="BTS Cap">
+            <input type="hidden" name="price" value="185000">
             <button type="submit"
               class="bg-pink-600 hover:bg-pink-700 text-white px-5 py-2 rounded-full transition">
               Tambah ke Keranjang
